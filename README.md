@@ -70,18 +70,4 @@ Step-by-Step Breakdown:
    - Use Security Center (Defender for Cloud) to detect vulnerabilities in the DVWA setup
    - Try running nmap, nikto, or Burp Suite scans againt your DVWA load balancer
   
-        Internet
-            |
-       [Load Balancer]
-            |
-      ┌───────────────┐
-      |     VNet      |
-      |  ┌─────────┐  |
-      |  |  VM1     |  |
-      |  |  Docker  |  |
-      |  └─────────┘  |
-      |  ┌─────────┐  |
-      |  |  VM2     |  |
-      |  |  Docker  |  |
-      |  └─────────┘  |
-      └───────────────┘
+        
